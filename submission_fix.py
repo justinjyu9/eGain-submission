@@ -106,7 +106,7 @@ def phone_flow():
     )
 
     feature = ask_user(
-        "\nWhat feature matters most to you?\n  1) camera\n  2) battery\n  3) performance",
+        "What feature matters most to you?\n  1) camera\n  2) battery\n  3) performance",
         ["camera", "battery", "performance", "1", "2", "3"]
     )
 
